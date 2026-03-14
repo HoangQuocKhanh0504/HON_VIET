@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>HỒN VIỆT - Trang chủ</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo/logo.png" type="image/png">
+</head>
+<body>
+    <!-- LOADING SCREEN -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">HỒN VIỆT</a>
+        
+        <!-- Hamburger Menu Button -->
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" class="active">Trang chủ</a>
+            <a href="lich-su.html">Lịch sử</a>
+            <a href="van-hoa.html">Văn hoá</a>
+            <a href="con-nguoi.html">Con người</a>
+            <a href="ket.html">Kết</a>
+        </div>
+    </nav>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 data-aos="fade-up">
+                <span>HỒN VIỆT</span>
+            </h1>
+            <p data-aos="fade-up" data-aos-delay="200">"NGÀN NĂM VĂN HIẾN - HỒN THIÊNG SÔNG NÚI - TINH HOA VIỆT"</p>
+            <a href="lich-su.html" class="hero-btn" data-aos="fade-up" data-aos-delay="400">Khám phá hành trình ▼</a>
+        </div>
+    </section>
+
+    <!-- PREVIEW SECTIONS -->
+    <section class="preview">
+        <div class="section-header" data-aos="fade-up">
+            <h2>KHÁM PHÁ HỒN VIỆT</h2>
+            <p>Hành trình qua ngàn năm văn hiến</p>
+        </div>
+
+        <div class="preview-grid">
+            <div class="preview-card" data-aos="fade-right">
+                <img src="img/lich-su-preview.png" alt="Lịch sử Việt Nam">
+                <div class="preview-content">
+                    <h3>LỊCH SỬ HÀO HÙNG</h3>
+                    <p>Ngàn năm văn hiến - Trang sử vàng dân tộc</p>
+                    <a href="lich-su.html" class="preview-btn">Khám phá →</a>
+                </div>
+            </div>
+
+            <div class="preview-card" data-aos="fade-up">
+                <img src="img/van-hoa-preview.png" alt="Văn hoá Việt Nam">
+                <div class="preview-content">
+                    <h3>VĂN HOÁ ĐẶC SẮC</h3>
+                    <p>Tinh hoa ngàn năm - Kết tinh từ đất trời</p>
+                    <a href="van-hoa.html" class="preview-btn">Khám phá →</a>
+                </div>
+            </div>
+
+            <div class="preview-card" data-aos="fade-left">
+                <img src="img/con-nguoi-preview.png" alt="Con người Việt Nam">
+                <div class="preview-content">
+                    <h3>CON NGƯỜI VIỆT</h3>
+                    <p>Nhân ái - Nghĩa tình - Kiên cường</p>
+                    <a href="con-nguoi.html" class="preview-btn">Khám phá →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MUSIC PLAYER -->
+    <div class="music-player">
+        <button class="music-btn" id="musicBtn">
+            <i class="fas fa-music" id="musicIcon"></i>
+        </button>
+    </div>
+
+    <!-- AUDIO ELEMENT -->
+    <audio id="backgroundMusic" loop>
+        <source src="music/nhac.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

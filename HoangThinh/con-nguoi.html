@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>HỒN VIỆT - Con người Việt Nam</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo/logo.png" type="image/png">
+</head>
+<body>
+    <!-- LOADING SCREEN -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">HỒN VIỆT</a>
+        
+        <!-- Hamburger Menu Button -->
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Trang chủ</a>
+            <a href="lich-su.html">Lịch sử</a>
+            <a href="van-hoa.html">Văn hoá</a>
+            <a href="con-nguoi.html" class="active">Con người</a>
+            <a href="ket.html">Kết</a>
+        </div>
+    </nav>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header people-header">
+        <div class="page-header-content">
+            <h1>CON NGƯỜI VIỆT NAM</h1>
+            <p>Nhân ái - Nghĩa tình - Kiên cường</p>
+        </div>
+    </div>
+
+    <!-- PEOPLE FULL SECTION -->
+    <section class="people-full">
+        <!-- ĐỨC TÍNH 1 -->
+        <div class="people-quality" data-aos="fade-up">
+            <div class="quality-icon">
+                <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <div class="quality-content">
+                <h2>NHÂN ÁI - VỊ THA</h2>
+                <p>"Lá lành đùm lá rách" - Tinh thần tương thân tương ái đã thấm sâu vào máu thịt người Việt. Trong khó khăn hoạn nạn, người Việt luôn sẵn sàng giúp đỡ lẫn nhau mà không mong cầu báo đáp.</p>
+                <ul>
+                    <li>Phong trào "Đền ơn đáp nghĩa"</li>
+                    <li>Quỹ "Vì người nghèo"</li>
+                    <li>Ủng hộ đồng bào lũ lụt</li>
+                    <li>Giúp đỡ người già neo đơn</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ĐỨC TÍNH 2 -->
+        <div class="people-quality reverse" data-aos="fade-up">
+            <div class="quality-icon">
+                <i class="fas fa-handshake"></i>
+            </div>
+            <div class="quality-content">
+                <h2>ĐOÀN KẾT - GẮN BÓ</h2>
+                <p>"Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao" - Đoàn kết là sức mạnh vô địch của dân tộc Việt Nam. Từ làng xã đến quốc gia, tinh thần đoàn kết luôn được phát huy.</p>
+                <ul>
+                    <li>Tình làng nghĩa xóm</li>
+                    <li>Họp mặt dòng họ</li>
+                    <li>Đoàn kết dân tộc 54 anh em</li>
+                    <li>Hướng về biển đảo quê hương</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ĐỨC TÍNH 3 -->
+        <div class="people-quality" data-aos="fade-up">
+            <div class="quality-icon">
+                <i class="fas fa-book-open"></i>
+            </div>
+            <div class="quality-content">
+                <h2>HIẾU HỌC - TÔN SƯ TRỌNG ĐẠO</h2>
+                <p>"Tôn sư trọng đạo" là truyền thống quý báu của dân tộc. Người Việt coi trọng việc học, kính trọng thầy cô giáo như cha mẹ.</p>
+                <h3>Những câu chuyện hiếu học:</h3>
+                <ul>
+                    <li>Chu Văn An - người thầy mẫu mực</li>
+                    <li>Lương Thế Vinh - nhà toán học</li>
+                    <li>Nguyễn Hiền - Trạng nguyên nhỏ tuổi</li>
+                    <li>Các học sinh nghèo vượt khó</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ĐỨC TÍNH 4 -->
+        <div class="people-quality reverse" data-aos="fade-up">
+            <div class="quality-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="quality-content">
+                <h2>YÊU NƯỚC - TỰ HÀO DÂN TỘC</h2>
+                <p>"Giặc đến nhà, đàn bà cũng đánh" - Lòng yêu nước luôn cháy bỏng trong trái tim mỗi người con đất Việt, từ quá khứ hào hùng đến hiện tại.</p>
+                <h3>Biểu hiện:</h3>
+                <ul>
+                    <li>Bảo vệ chủ quyền biển đảo</li>
+                    <li>Giữ gìn bản sắc văn hóa</li>
+                    <li>Học tập và làm theo Bác</li>
+                    <li>Tự hào quốc gia</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ĐỨC TÍNH 5 -->
+        <div class="people-quality" data-aos="fade-up">
+            <div class="quality-icon">
+                <i class="fas fa-seedling"></i>
+            </div>
+            <div class="quality-content">
+                <h2>CẦN CÙ - SÁNG TẠO</h2>
+                <p>Người nông dân Việt Nam "một nắng hai sương", luôn cần mẫn trên đồng ruộng. Trong thời đại mới, người Việt không ngừng học hỏi, sáng tạo để vươn xa.</p>
+                <h3>Thành tựu:</h3>
+                <ul>
+                    <li>Nông nghiệp lúa nước phát triển</li>
+                    <li>Làng nghề truyền thống</li>
+                    <li>Doanh nhân thành đạt</li>
+                    <li>Trí thức, nhà khoa học</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ĐỨC TÍNH 6 -->
+        <div class="people-quality reverse" data-aos="fade-up">
+            <div class="quality-icon">
+                <i class="fas fa-smile"></i>
+            </div>
+            <div class="quality-content">
+                <h2>LẠC QUAN - YÊU ĐỜI</h2>
+                <p>Dù trong hoàn cảnh khó khăn, người Việt vẫn luôn lạc quan, yêu đời. Điều đó thể hiện qua ca dao, dân ca và cuộc sống thường ngày.</p>
+                <ul>
+                    <li>Tiếng cười trong gian khó</li>
+                    <li>Hát ru, hò vè</li>
+                    <li>Lễ hội vui tươi</li>
+                    <li>Đám cưới, mừng thọ</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PEOPLE GALLERY -->
+    <section class="people-gallery">
+        <h2 data-aos="fade-up">HÌNH ẢNH CON NGƯỜI VIỆT NAM</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="img/doan_ket.png" alt="Người Việt Nam">
+            </div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                <img src="img/hoc_sinh.png" alt="Người Việt Nam">
+            </div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                <img src="img/nong_dan.png" alt="Người Việt Nam">
+            </div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                <img src="img/nguoi-viet.png" alt="Người Việt Nam">
+            </div>
+        </div>
+    </section>
+
+    <!-- PEOPLE QUOTE -->
+    <div class="people-full-quote" data-aos="zoom-in">
+        <p>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯<br>
+        CON NGƯỜI VIỆT NAM<br>
+        NHÂN ÁI - NHÂN NGHĨA - NHÂN VĂN<br>
+        HIẾU HỌC - ĐOÀN KẾT - YÊU NƯỚC<br>
+        CẦN CÙ - SÁNG TẠO - LẠC QUAN<br>
+        ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
+    </div>
+
+    <!-- MUSIC PLAYER -->
+    <div class="music-player">
+        <button class="music-btn" id="musicBtn">
+            <i class="fas fa-music" id="musicIcon"></i>
+        </button>
+    </div>
+
+    <!-- AUDIO ELEMENT -->
+    <audio id="backgroundMusic" loop>
+        <source src="music/nhac.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
